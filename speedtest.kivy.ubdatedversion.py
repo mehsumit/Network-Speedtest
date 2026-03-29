@@ -13,7 +13,7 @@ class SpeedTestApp(App):
         self.layout = BoxLayout(orientation='vertical', padding=30, spacing=20)
 
         self.title_label = Label(
-            text="📶 Internet Speed Test",
+            text=" Internet Speed Test",
             font_size='24sp',
             bold=True,
             color=(0,0,0,1)
@@ -35,7 +35,7 @@ class SpeedTestApp(App):
         self.layout.add_widget(self.upload_label)
 
         self.button = Button(
-            text="🚀 Check Speed",
+            text=" Check Speed",
             size_hint=(1, 0.2),
             background_color=(1,0,0,1),
             font_size='18sp',
